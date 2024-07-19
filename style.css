@@ -1,0 +1,66 @@
+/* colors
+   Red #BB2233
+   Orange #FA8603
+   white #FAE3CF
+   Blue #0A0F24
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Anton SC", sans-serif;
+    font-size: 10vmin;
+    letter-spacing: 2.5px;
+    color: #0A0F24;
+    margin-top: 2rem;
+}
+
+body {
+    background-color: #FA8603;
+    text-align: center;
+}
+
+.container {
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 17vmin;
+    width: 17vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    background-color: #c70f24;
+    font-size: 9vmin;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FAE3CF;
+}
+
+#reset-btn {
+    padding: 1rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #0A0F24;
+    color: #FAE3CF;
+    cursor: pointer;
+    margin-top: 1rem;
+}
